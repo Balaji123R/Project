@@ -1,0 +1,75 @@
+body {
+    background-image: url('images/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.login-form {
+    text-align: center;
+    
+}
+
+.login-form h2 {
+    color: #008CBA; /* Blue color */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #008CBA;
+    text-decoration: none;
+}
+
+.login-button {
+    background-color: #008CBA; /* Blue color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #006494;
+}
+
+.signup-text {
+    margin-top: 15px;
+}
+
+.signup-text a {
+    color: #008CBA;
+    text-decoration: none;
+}
